@@ -1,5 +1,6 @@
 struct Solution;
 
+#[allow(dead_code)]
 impl Solution {
     pub fn solve() {
         // Implement solution for problem 2 here
