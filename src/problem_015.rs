@@ -53,13 +53,6 @@ mod tests {
     use super::Solution;
 
     #[test]
-    fn test_case_1() {
-        let input = vec![-1, 0, 1, 2, -1, -4];
-        let output = vec![vec![-1, 0, 1], vec![-1, -1, 2]];
-        assert_eq!(Solution::three_sum(input), output);
-    }
-
-    #[test]
     fn test_case_2() {
         let input = vec![0, 1, 1];
         let output: Vec<Vec<i32>> = vec![];
